@@ -1,0 +1,77 @@
+main{
+    width:70%;
+}
+
+img{
+    height:30%;
+    width:40%;
+    float:left;
+    margin:0em 4em 0em 4em;
+}
+
+header{
+  
+}
+
+footer{
+    padding:2em;
+    margin-top:75%;
+    font-size:10px;
+    background-color:lightgray;
+}
+
+body{
+    background-color:green;
+    width: 100%;
+}
+
+
+h1{
+    style:border 1px solid black;
+   text-align:center;
+
+}
+
+.title{
+    background-color:limegreen; padding:10px; text-align:center; width:75%; margin: auto;
+}
+
+.news{
+    background-color:cyan; padding:10px; text-align:center; width:30%; position:relative; left:237px;
+}
+
+.news:hover{
+    animation:animation 0.5s forwards;
+}
+.video{
+    background-color:cyan; size:100px;
+}
+.videoContainer{
+    background-color:cyan; padding:10px; text-align:center;
+    position: absolute;
+    right:227px
+}
+.imgContainer{
+    background-color:cyan; padding:0px; text-align:center;
+    position:absolute;
+    left:240px
+
+}
+.emperorImg{
+    height:300px;
+    width:300px;
+    filter:grayscale(100%)
+}
+
+footer{
+    background-color:green;
+    width: 100%;
+}
+
+@keyframes animation{
+    from{
+        color:black;
+    }to{
+        color:red;
+    }
+}
